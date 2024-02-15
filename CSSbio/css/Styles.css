@@ -1,0 +1,38 @@
+/*Chris Hallett*/
+/*February 15, 2024*/
+
+body{
+    
+    padding: 5px;    
+}
+h1,h2,h3{
+    text-align: left;
+
+}
+a:hover {
+    color: lightseagreen;
+}
+a:visited{
+    color: green;
+}
+a{
+    color: limegreen;
+    }
+p.intro{
+    color: darkblue ;
+    font-size: 17px;
+}
+.highlight{
+    background-color: blueviolet;
+    color: yellow;
+}
+.alert{
+    background: darkmagenta;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.orange{
+    background: orange;
+    color: grey;
+}
