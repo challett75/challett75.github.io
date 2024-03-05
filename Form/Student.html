@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<!-- Chris Hallett
+     March 5,2024-->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Chris Hallett">
+    <meta charset="UTF-8">
+    <meta name="description" content="Chris Hallett web developer Boise Idaho">
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="mailto:chrishallett@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+       <fieldset>                       
+        <legend>How do I contact you?</legend>
+        <div>        
+         <label>Company:</label><br>
+         <input type="text" id="company" name="company">            
+            </div>
+            <div>        
+            <label>Person to Contact:</label><br>
+                <input type="text" id="PersontoContact" name="Person to Contact">
+            </div>                    
+        <div>        
+            <label>Email:</label>
+            <input type="email" id="Email" name="Email" placeholder="Email" required>           	
+            </div>    
+            <div>        
+            <label>Phone Number:</label>
+            <input type="tel" id="phone#" name="Phone" placeholder="000-000-0000"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">           
+            </div>
+        </fieldset>   
+        <fieldset>        
+            <legend>What opportunities are available at your company?</legend>
+           
+            <div>
+            <label>Type of Position</label>
+            <select id="typeofPosition" name="TypeofPosition">
+            <option value="Internship">Internship</option>            
+            <option value="Part-time">Part-time</option>
+            <option value="Full-time">Full-time</option>            
+            <option value="Contract">Contract</option>            
+            <option value="Temporary">Temporary</option>            
+            <option value="Oncall">On call</option>                     
+            </select>
+        </div>
+            <div>
+            <p>How did you find me?</p>
+            <input type ="radio" name="Howdidyoufindme?" id="LinkedIn"
+            value="LinkedIn"><label for="LinkedIn">LinkedIn</label>
+            <input type ="radio" name="Howdidyoufindme?" id="Jobfair"
+            value="JobFair"><label>Job Fair</label>
+            <input type ="radio" name="Howdidyoufindme?" id="CWICorporatePartner"
+            value="CWICorporatePartner"><label for="CWICorporatePartner">CWI Corporate Partner</label>
+            </div> 
+            <div>                
+                <textarea id="form" name="form" rows="10" cols="100"
+                 placeholder="How should I prepare for the interview?" >              
+                </textarea>
+            </div>            
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
