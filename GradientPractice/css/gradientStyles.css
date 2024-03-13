@@ -1,0 +1,61 @@
+/* Chris Hallett
+March 12, 2024 */
+body {
+	background-color: #B8B894;
+}
+
+main {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header {
+	margin-top: 0.2em;
+	text-align: center;
+}
+
+#gradient1 {
+
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background-image: linear-gradient( to right, #000066, #99FF99 25%);
+	
+
+}
+#gradient2 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background-image: linear-gradient( to left, #000066, #99FF99 10%);
+}
+#gradient3 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background-image: radial-gradient(#006699, #00CC00, #ff0000);
+					
+}
+
+#gradient4 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background-image: repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%);
+}
+
+#gradient5 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background-image: linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF);
+}
+
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
