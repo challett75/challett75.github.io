@@ -1,0 +1,78 @@
+
+/*Chris Hallett*/	
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	width: 70%; margin: 0 auto 
+}
+.Bold{
+	font-weight: bold;
+}
+footer{
+    font-size: 1em;
+	padding-bottom: 10px;
+}
+main{
+	background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;	
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+img{
+	float:left;
+	border-radius: 100%;
+	
+}
+html{
+	background-image: url("../Images/jewelry.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	
+}
+.addrightmargin{
+	margin-right: 10%;
+
+}
+nav ul li {
+	list-style-type: none;
+	font-size: 1.5em;
+	clear: left;
+}
+header 
+
+h1{
+	
+	font-family: "Pacifico", cursive;
+    font-weight: 700;   
+    font-size: 4em;
+	padding-left:  30%;
+   
+}
+h2{
+	font-family: 'Roboto', 'Times New Roman', Times, serif;		
+	font-size: 2em;
+	font-style: italic;
+	padding-left: 30%;
+	
+	
+	
+	
+	
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("../Fonts/Roboto-Regular-webfont.woff") format('woff')
+
+	font
+}
+footer{
+	text-align: center;
+	
+}
+
+	
