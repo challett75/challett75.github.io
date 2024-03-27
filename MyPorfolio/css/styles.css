@@ -1,0 +1,23 @@
+/*Chris Hallett
+March 23 2024*/
+html{
+    background-image: linear-gradient(#ffa07a ,#DAA520 ,#FF69B4 ,#B0C4DE ,#6495ED );
+    background-repeat: no-repeat;
+    height: 103%;          
+}
+img{
+    float: left;    
+    border-radius: 100%;    
+}
+a:link{    
+    text-decoration: none;    
+}
+a:visited{
+    color: honeydew;
+}
+a:hover{
+    color:#ffe4c4
+}
+a:active{
+    color:red;
+}
