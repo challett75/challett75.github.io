@@ -1,0 +1,10 @@
+/*Chris Hallett
+March 23 2024*/
+table,th,td {   
+    background-image: linear-gradient(#ffa07a ,#DAA520 ,#FF69B4 ,#B0C4DE ,#6495ED);         
+    border:2px outset;
+    padding:3px;       
+    margin-left: 34%;
+    color:black;    
+  }  
+
