@@ -1,0 +1,95 @@
+/*Chris Hallett
+April 9,2024*/	
+*{
+	padding: 0;
+	margin: 0;
+}
+body 
+{ 
+	padding: 1%;
+	background-color: #FFFFFF;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+header
+{ 
+	background-color: #000033;
+    color: #FFFFFF; 
+	background-image: url(../Images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;	
+	
+}
+nav 
+{ 
+	background-color: #90C7E3;	   
+	
+}
+h1 
+{ 	 
+    font-family: Georgia, 'Times New Roman', serif; 
+}	
+h2 
+{ 
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+	display: none;	
+}	 
+h3 
+{ 
+	color: #000033;
+}
+main ul  
+{ 
+	list-style-image: url(../Images/marker.gif); 
+	margin-left: 7%;
+} 
+footer 
+{ 	
+	font-size: 75%;    
+	text-align: center;	
+	background-image: linear-gradient(#ffffff,#90c7e3);
+}	   
+dt 
+{ 
+	color: #000033;	
+}
+.resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+}
+address
+{ 
+	font-size: 90%; 
+}
+dd
+{
+    margin-left: 4%;
+}
+img
+{
+    display: none;
+}
+nav ul li{
+	font-weight: bold;	
+	padding: 6px;
+	margin:0%;
+	list-style-type: none;
+}
+
+@media screen and (min-width:641px)
+ {
+	img{
+    display: block;
+    max-width: 100%;
+	}
+	h2{
+		display: block;
+	}
+	nav ul li{
+		display: inline;
+	}
+}
