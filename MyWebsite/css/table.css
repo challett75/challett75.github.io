@@ -1,0 +1,10 @@
+/*Chris Hallett
+March 23 2024*/
+table,th,td {   
+    background-color: hotpink;       
+    border:2px outset;
+    padding:3px;
+    margin-left: 30%;
+    color:black;      
+  }  
+ 
