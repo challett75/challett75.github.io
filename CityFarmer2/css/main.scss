@@ -1,0 +1,33 @@
+$navText: #000;
+$navHover: #ffebcd;
+$hoverText:#8B0000 ;
+$navNoHover:#7a6b48;
+$bodyBackground: #B8D1EB;
+$mainBackground: #C5A98B;
+
+
+nav {
+    ul {
+        list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    width: 200px;
+	    background-color: $mainBackground;
+       
+        
+         a{
+            display: block;
+	        color: $navText;
+	        padding: 8px 16px;
+	        text-decoration: none;
+           &:active{
+            background-color: $navHover;
+	        color: $navText ;
+            &:hover:not(.active){
+                background-color: #7a6b48;
+                color:$hoverText ;
+            }/*# sourceMappingURL=main.css.map */
+           }
+       }    
+    }
+}
