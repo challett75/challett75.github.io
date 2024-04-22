@@ -1,0 +1,47 @@
+/*Chris Hallett
+March 23 2024*/
+@font-face {
+    font-family: 'greatvibes';
+    src: url("../fonts/greatvibes-regular.woff") format('woff');
+    src: url("../fonts/greatvibes-regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+    font-family: 'lobster';
+    src:url("../fonts/lobster_1.3.woff") format('woff');
+    src:url("../fonts/lobster_1.3.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul li {        
+    margin-left: 120px;       
+    font-size: 2.5em;
+    font-family: 'greatvibes','Times New Roman', Times, serif;
+}
+main {    
+    text-align: center;     
+    font-size: 50px;
+    margin-top: 17%;
+    color: #8a2be2;
+    margin-left: 1%;
+    font-family: 'lobster',Arial, Helvetica, sans-serif;
+}
+footer{                
+    margin-top: 50%;        
+    font-size: 1.5em;      
+}
+header img{
+    display: none;
+}
+@media screen and (min-width:641px)
+{
+    header img{
+        display: block;
+    }  
+nav{
+    display: inline;   
+}
+}
+

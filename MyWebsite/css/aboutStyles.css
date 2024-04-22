@@ -1,0 +1,59 @@
+/*Chris Hallett
+March 23 2024*/
+@font-face {
+    font-family: 'greatvibes';
+    src: url("../fonts/greatvibes-regular.woff") format('woff');
+    src: url("../fonts/greatvibes-regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+    font-family: 'lobster';
+    src:url("../fonts/lobster_1.3.woff") format('woff');
+    src:url("../fonts/lobster_1.3.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '3dumb';
+    src: url("../fonts/3dumb.woff") format('woff');
+    src: url("../fonts/3dumb.woff2") format('woff2'); 
+    font-weight: normal;
+    font-style: normal;
+}
+ nav ul li { 
+    font-size: 35px;   
+    margin-left: 135px;     
+    font-family: 'greatvibes','Times New Roman', Times, serif;    
+}
+h2{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 5em;
+    color:#8a2be2;
+    font-family: '3dumb',Arial, Helvetica, sans-serif;
+} 
+main{   
+    padding-top: 10%;        
+    font-size:40px;    
+    color: #8a2be2;    
+    font-family: 'lobster',Arial, Helvetica, sans-serif;
+} 
+footer{             
+    margin-top:75%;
+    font-size: 1.25em; 
+    
+}
+header img{
+    display: none;
+}
+@media screen and (min-width:641px)
+{
+    header img{
+        display: block;
+    }  
+nav{
+    display: inline;
+    position: absolute;
+}
+}

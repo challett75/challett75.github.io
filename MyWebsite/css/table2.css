@@ -1,0 +1,7 @@
+/*Chris Hallett
+March 23 2024*/
+    table, th, td {   
+    border:2px outset #b3adad;
+    padding:3px;    
+    color: #313030;    
+}
