@@ -27,14 +27,14 @@ ul li {
     font-family: 'greatvibes','Times New Roman', Times, serif;    
 }
 h2{
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
     font-size: 2.0em;
     color:#8a2be2;
     font-family: '3dumb',Arial, Helvetica, sans-serif;
 } 
 main{
-    padding-top: 10%;
+    padding-top: 5%;
     clear: left;
     text-align: center;     
     font-size: 40px; 
@@ -44,11 +44,11 @@ main{
 } 
 footer{      
 
-   margin-top: 10%;  
+   margin-top: 5%;  
     font-size: 1.5em;      
 }
 section{
-    padding-top: 10%;
+    padding-top: 5%;
     display: none;
     justify-content: space-between;
 
@@ -72,8 +72,8 @@ table{
     display: block;
 }
 section {
-    padding-top: 10%;
-    display: inline-flex;
+    padding-top: 5%;
+    display: inline;
 }
 }
 
