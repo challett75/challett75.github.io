@@ -1,25 +1,29 @@
-
-html {
-    background-image: url('/images/DarkerBackground.jpg');
-    background-size: cover;
+html{   
+    background-image: url("/images/DarkerBackground.jpg");
     background-repeat: no-repeat;
-    background-position: center;      
+    background-size: cover;
+
 }
-header img {
+
+body{
+  text-align: center;
+    font-size: 25px;  
+    
+}   
+header img{
     border-radius: 50%;
     display: none;
     padding-left: 1%;
-    margin-bottom: 1%;    
+    margin-bottom: 1%; 
 }
 header ol{
-    list-style: none;
-    
+    list-style: none; 
     
 }
 a:link{
-    color: aqua;
+    color:  rgb(47, 172, 155);
 }
-h1{
+h1,h2,h3{
     color: red;
 }
 header div{    
@@ -28,14 +32,10 @@ header div{
     color: rgb(47, 172, 155);    
    
 }
-body {    
-    text-align: center;
-    font-size: 25px;  
 
-}
 main{
     margin-top: 10%;
-    color: rgb(47, 172, 155);
+    color: red;
     font-weight: bold;
 }
 ul li { 
